@@ -556,6 +556,10 @@ footer {
   #sm-banner .banner-box2 {
     margin-top: 10px;
   }
+
+  .about-section{
+    padding: 20px 30px !important;
+  }
 }
 
 @media (max-width: 799px) {
@@ -671,5 +675,9 @@ footer {
 
   #prodetails .single-pro-detail h6 {
     padding: 10px 0 10px 0;
+  }
+
+  .about-section{
+    padding: 40px 70px !important;
   }
 }

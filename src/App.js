@@ -4,11 +4,13 @@ import Home from "./pages/home/Home";
 import ErrorPage from "./pages/errorPage/ErrorPage";
 import ProductDetail from "./pages/productDetail/ProductDetail";
 import Layout from "./pages/layout/Layout";
+import About from "./pages/about/About";
+import ShopingCart from "./pages/shoppingCart/ShopingCart";
 
 function App() {
   const navigate = useNavigate();
   useEffect(() => {
-    navigate("/home");
+    navigate("/shopping-cart");
   }, []);
 
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="*" element={<ErrorPage />} />
           <Route path="/home" element={<Home />} />
           <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path='/about' element={<About />}/>
+          <Route path='/shopping-cart' element={<ShopingCart />}/>
         </Route>
       </Routes>
     </div>

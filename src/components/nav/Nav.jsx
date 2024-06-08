@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import ShoppingIcon from "../shoppingIcon/ShoppingIcon";
 
 const Nav = () => {
   return (
@@ -14,15 +16,13 @@ const Nav = () => {
           <a href="#">Blog</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about"><Link to='/about'>About</Link></a>
         </li>
         <li>
           <a href="#">Contact</a>
         </li>
         <li id="lg-bag">
-          <a href="#">
-            <i class="far fa-shopping-bag"></i>
-          </a>
+          <ShoppingIcon />
         </li>
         <a href="#" id="close">
           <i class="far fa-times"></i>
