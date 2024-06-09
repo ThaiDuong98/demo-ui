@@ -7,26 +7,26 @@ const Nav = () => {
     <div>
       <ul id="navbar">
         <li>
-          <a href="index.html">Home</a>
+          <Link to='/home'>Home</Link>
         </li>
         <li>
-          <a href="shop.html">Shop</a>
+          <Link to='/shop'>Shop</Link>
         </li>
         <li>
-          <a href="#">Blog</a>
+          <Link to='/home'>Blog</Link>
         </li>
         <li>
-          <a href="#about"><Link to='/about'>About</Link></a>
+          <Link to='/about'>About</Link>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <Link to='/contact'>Contact</Link>
         </li>
         <li id="lg-bag">
           <ShoppingIcon />
         </li>
-        <a href="#" id="close">
+        <Link href="#" id="close">
           <i class="far fa-times"></i>
-        </a>
+        </Link>
       </ul>
     </div>
   );

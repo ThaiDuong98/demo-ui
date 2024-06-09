@@ -81,7 +81,6 @@ const ProductDetail = () => {
       ) : (
         <div>Product not found</div>
       )}
-      hihi
     </>
   );
 };

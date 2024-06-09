@@ -1,3 +1,14 @@
 .shoping-cart-container{
     margin: 40px 80px;
 }
+
+.shoping-cart-container .shopping-cart-title{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.shoping-cart-container .shopping-cart-pay{
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+}

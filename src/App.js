@@ -6,11 +6,14 @@ import ProductDetail from "./pages/productDetail/ProductDetail";
 import Layout from "./pages/layout/Layout";
 import About from "./pages/about/About";
 import ShopingCart from "./pages/shoppingCart/ShopingCart";
+import Payment from "./pages/payment/Payment";
+import Contact from "./pages/contact/Contact";
+import Shop from "./pages/shop/Shop";
 
 function App() {
   const navigate = useNavigate();
   useEffect(() => {
-    navigate("/shopping-cart");
+    navigate("/home");
   }, []);
 
   return (
@@ -22,6 +25,9 @@ function App() {
           <Route path="/product/:id" element={<ProductDetail />} />
           <Route path='/about' element={<About />}/>
           <Route path='/shopping-cart' element={<ShopingCart />}/>
+          <Route path='/payment' element={<Payment />}/>
+          <Route path='/contact' element={<Contact />}/>
+          <Route path='/shop' element={<Shop />}/>
         </Route>
       </Routes>
     </div>

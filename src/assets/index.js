@@ -7,6 +7,7 @@ import product5Img from "./img/products/f5.jpg";
 import product6Img from "./img/products/f6.jpg";
 import product7Img from "./img/products/f7.jpg";
 import product8Img from "./img/products/f8.jpg";
+import customerSupport from './img/customer-support.png'
 
 export {
   logo,
@@ -18,4 +19,5 @@ export {
   product6Img,
   product7Img,
   product8Img,
+  customerSupport
 };

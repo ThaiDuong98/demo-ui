@@ -13,9 +13,9 @@ const ShoppingIcon = () => {
     return (
         <section>
             <IconButton onClick={handleClick}>
-            <Badge badgeContent={3} color="error" >
-                <ShoppingCartIcon />
-            </Badge>
+                <Badge badgeContent={3} color="error" >
+                    <ShoppingCartIcon />
+                </Badge>
             </IconButton>
         </section>
     )

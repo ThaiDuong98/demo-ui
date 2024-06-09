@@ -26,7 +26,7 @@ const CartItem = ({ img, title, quantity, price }) => {
                     </IconButton> */}
                 </div>
 
-                <p>{price} VNĐ</p>
+                <p>{price.toLocaleString()} VNĐ</p>
             </div>
         </Paper>
     )
